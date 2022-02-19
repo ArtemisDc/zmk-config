@@ -14,7 +14,7 @@
         combo_LShift {
             timeout-ms = <0>;
             key-positions = <26>;
-                    bindings = <&kp LSHIFT &mo 4>;
+                    bindings = <&kp LSHIFT>;
         };
     };
 };
