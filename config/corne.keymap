@@ -54,7 +54,20 @@
   &trans &trans   &kp NON_US_HASH &kp LS(N6)   &kp RA(E)   &kp LS(N2)      &LS(N0) &kp FSLH  &kp RA(Q)        &kP LS(MINUS) &kp LS(N1) &trans
                     	     &trans &trans   &trans   &trans   &trans    &trans
                         >;
+                };
                 
+                symbol2_layer {
+// -----------------------------------------------------------------------------------------
+// |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
+// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
+// | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
+//                    | GUI |     | SPC |   | ENT |     | ALT |
+                        bindings = <
+   &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans
+   &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans
+   &trans &trans &trans &trans &trans &trans  &trans &trans &trans &kp X &trans &trans
+                        &trans &trans &trans  &trans &trans &trans
+                    >;   
                 };
         };
 };
