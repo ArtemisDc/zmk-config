@@ -63,9 +63,9 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans
-   &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans
-   &trans &trans &trans &trans &trans &trans  &trans &trans &trans &kp X &trans &trans
+   &kp LS(GRAVE) &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans
+   &trans &kp LS(SQT) &kp RA(N8) &kp RA(N9) &kp RA(N7)  &kp RA(N0)  &kp RA(MINUS) &kp LS(LBKT) &kp MINUS &kp LS(SEMI) &trans &trans
+   &trans &trans &kp RA(RBKT) &kp LS(N3) &kp LS(N4) &kp LS(NON_US_HASH)  &kp RBKT &kp LS(FSLH) &kp LA(NON_US_BACKSLASH) &kp LS(RBKT) &kp LS(N5)  &trans
                         &trans &trans &trans  &trans &trans &trans
                     >;   
                 };
