@@ -14,7 +14,7 @@
         combo_LShift {
             timeout-ms = <0>;
             key-positions = <26>;
-                    bindings = <&kp LSHIFT>;
+                    bindings = <&kp LSHIFT &kp mo 4>;
         };
     };
 };
@@ -71,7 +71,7 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &trans   &trans &trans &trans &trans &trans   &trans &trans  &trans    &trans   &trans    &kp DEL
+   &trans   &trans &trans &trans &trans &trans   &trans &trans  &trans    &trans   &trans    &kp DELETE
    &trans &trans &trans &trans &trans &trans   &trans &trans  &trans     &trans   &trans &trans
    &trans &trans &trans &trans &trans &trans   &trans &trans  &trans &trans &trans &trans
                           &trans  &trans &trans &trans  &trans  &trans
