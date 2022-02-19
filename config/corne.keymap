@@ -59,11 +59,12 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-      &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans
-&trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans
+   &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans
+   &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans
    &trans &trans &trans &trans &trans &trans  &trans &trans &trans &kp X &trans &trans
                         &trans &trans &trans  &trans &trans &trans
                         >;
                 
+        };
         };
 };
