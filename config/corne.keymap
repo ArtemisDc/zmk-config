@@ -79,7 +79,7 @@
                         bindings = <
    &bt BT_CLR &bt BT_NXT &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans
    &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans
-   &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans
+   &out OUT_TOG &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans
                         &trans &trans &trans  &to 0 &trans &trans
                     >;   
                 };
