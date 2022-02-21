@@ -14,11 +14,7 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
-// -----------------------------------------------------------------------------------------
-// |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-// | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-// | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-//                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
+
                         bindings = <
    &kp ESC   &kp Q &kp W &kp E &kp R &kp T   &kp Z &kp U  &kp I    &kp O   &kp P    &kp BSPC
    &kp TAB &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &mt RSHFT ENTER &kp X
@@ -26,12 +22,9 @@
                            &kp LGUI  &lt 2 SPACE &kp LALT &to 4  &lt 2 SPACE  &kp RALT
                         >;
                     };
-                                        shift_layer {
-// -----------------------------------------------------------------------------------------
-// |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-// | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
+                    
+                shift_layer {
+
                         bindings = <
    &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans
    &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans
@@ -39,29 +32,19 @@
                         &trans &trans &trans  &trans &trans &trans
                     >;   
                 };
-                          
-                
-
+                                         
                 symbol_layer {
-// -----------------------------------------------------------------------------------------
-// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
+
                         bindings = <
   &kp  GRAVE  &kp N1 &kp N2 &kp N3 &kp N4 &kp N5   &kp N6 &kp N7  &kp N8 &kp N9 &kp N0 &kp BSPC
   &trans &kp SQT   &kp LS(N8) &kp LS(N9)   &kp LS(DOT) &kp LS(COMMA)   &kp LS(N7)  &kp LBKT  &kp MINUS  &kp SEMI  &lt 3 ENTER  &trans
-  &trans &mo 3   &kp NON_US_HASH &kp LS(N6)   &kp RA(E)   &kp LS(N2)      &kp LS(N0) &kp FSLH  &kp RA(Q)        &kp LS(MINUS) &kp LS(N1) &trans
+  &trans &mo 3   &kp NON_US_HASH &kp LS(N6)   &kp RA(E)   &kp LS(N2)   &kp LS(N0) &kp FSLH  &kp RA(Q) &kp LS(MINUS) &kp LS(N1) &trans
                     	     &trans &trans   &trans   &trans   &trans    &trans
                         >;
                 };
                 
                 symbol2_layer {
-// -----------------------------------------------------------------------------------------
-// |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-// | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
+
                         bindings = <
    &kp LS(GRAVE) &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans
    &trans &kp LS(SQT) &kp RA(N8) &kp RA(N9) &kp RA(N7)  &kp RA(N0)  &kp RA(MINUS) &kp LS(LBKT) &kp MINUS &kp LS(SEMI) &trans &trans
@@ -70,12 +53,8 @@
                     >;   
                 };
           
-           stuff_layer {
-// -----------------------------------------------------------------------------------------
-// |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-// | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
+               stuff_layer {
+
                         bindings = <
    &bt BT_CLR &bt BT_NXT &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans
    &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans
