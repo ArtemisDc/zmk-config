@@ -15,7 +15,7 @@
                 gresc: comma_new {
                         compatible = "zmk,behavior-mod-morph";
                         label = "COMMA_NEW";
-                        #binding-cells = <0>;
+                        #binding-cells = <33>;
                         bindings = <&kp COMMA>, <&kp NON_US_BSLH>;
                         mods = <(MOD_LSFT|MOD_RSFT)>;
                 };
